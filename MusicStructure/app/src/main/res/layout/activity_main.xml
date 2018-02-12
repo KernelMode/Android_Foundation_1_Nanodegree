@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankur.musicstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/mainLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Main Menu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/nowPlayingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_border"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainLabel">
+
+        <ImageView
+            android:id="@+id/nowPlayingIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/now_playing" />
+
+        <TextView
+            android:id="@+id/nowPlayingText"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="30dp"
+            android:text="Now Playing"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/songsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_border"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nowPlayingLayout">
+
+        <ImageView
+            android:id="@+id/songsIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/songs" />
+
+        <TextView
+            android:id="@+id/songsText"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="30dp"
+            android:text="Songs"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/albumsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_border"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/songsLayout">
+
+        <ImageView
+            android:id="@+id/AlbumsIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/album" />
+
+        <TextView
+            android:id="@+id/AlbumsText"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="30dp"
+            android:text="Albums"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spotifyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_border"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/albumsLayout">
+
+        <ImageView
+            android:id="@+id/spotifyIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/spotify" />
+
+        <TextView
+            android:id="@+id/spotifyText"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="30dp"
+            android:text="Spotify"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_border"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spotifyLayout">
+
+        <ImageView
+            android:id="@+id/buyIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/buy" />
+
+        <TextView
+            android:id="@+id/buyText"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#e0e0e0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="30dp"
+            android:text="Buy Premium"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/buyLayout"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/button_border1"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="This activity displays all the other activities and allows the usere to interact with the features."/>
+
+
+</android.support.constraint.ConstraintLayout>
