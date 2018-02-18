@@ -1,0 +1,34 @@
+<resources>
+    <!-- Info has been taken from WikiPedia-->
+    <string name="app_name">Chandigarh</string>
+    <string name="attractions">Top Sights</string>
+    <string name="restaurant">Food</string>
+    <string name="history">Historical Sites</string>
+    <string name="institutes">Institutes</string>
+
+    <string name="sukhnaheading">Sukhna Lake</string>
+    <string name="sukhnainfo">Sukhna is an inseparable part of the city of Chandigarh.This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills..............</string>
+    <string name="rockheading">Rock Garden</string>
+    <string name="rockinfo">The Rock Garden of Chandigarh is a sculpture garden in Chandigarh, India. It is also known as Nek Chand\'s Rock Garden after its founder Nek Chand, a government official who started the garden secretly in his spare time in 1957........ </string>
+    <string name="chhatbirheading">Chhatbir Zoo</string>
+    <string name="chhatbirinfo">Chhatbir Zoo (formally Mahendra Chaudhary Zoological Park), is a zoological park situated close to Zirakpur, India. The zoo was constructed in the 1970s and is home to a large variety of birds, mammals and reptiles..................</string>
+    <string name="roseheading">Rose Garden</string>
+    <string name="roseinfo">The city houses the largest rose garden in Asia. It also hosts annual rose festival which is quite popular among local population..........</string>
+
+    <string name="sheronzheading">Sheronz</string>
+    <string name="sheronzinfo">A blend of attentive services, expressive decor, luxurious bedding and imaginative dinning! Located in the city beautiful, Hotel Sheronz is one of its kind hotel providing the absolutely right blend of luxury, warm service and memorable experience..........</string>
+    <string name="orangeheading">Hotel Orange</string>
+    <string name="orangeinfo">Set in a commercial district dotted parks, this unassuming hotel is 8 km from Chandigarh Railway Station. It\'s 5 km from the Le Corbusier Centre, exhibiting the life of the architect, and 6 km from the Independence-era Chandigarh War Memorial.......</string>
+    <string name="barbequeheading">Barbeque Nation</string>
+    <string name="barbequeinfo">Barbeque Nation is one of the popular restaurants in Chandigarh serving veg and non-veg buffet. Located in Sector 26 of Chandigarh, Barbeque Nation has been serving the residents of the city beautiful since 2008.........</string>
+
+    <string name="capitolheading">The Capitol</string>
+    <string name="capitolinfo">It is the headquarters of Punjab and Haryana. The Capitol Complex consists of the High Court, the Legislative Assembly and the office of the Secretariat. This complex was designed by the French architect Le Corbusier.............</string>
+
+    <string name="chitkaraheading">Chitkara University</string>
+    <string name="chitkarainfo">University Run by the Chitkara Educational Trust is among the Top Non Profit Private Engineering colleges in Chandigarh, located in Punjab and Himachal Pradesh........</string>
+    <string name="cuheading">Chandigarh University</string>
+    <string name="cuinfo">Chandigarh University offers a variety of Engineering courses under a variety of specializations. The University offers regular B.E. courses for a duration of four years, B.E. lateral entry courses for a duration of three years.............</string>
+    <string name="puheading">Panjab University</string>
+    <string name="puinfo">Panjab University is a public collegiate university located in Chandigarh, India. It originated in 1882, but was established in 1947, making it one of the oldest universities in India. The university has 75 teaching and research departments.........</string>
+</resources>

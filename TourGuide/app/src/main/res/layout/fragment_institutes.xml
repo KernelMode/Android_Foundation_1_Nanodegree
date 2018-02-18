@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankur.tourguide.InstitutesFragment">
+
+
+    <ListView
+        android:id="@+id/instView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#C5E1A5"
+        android:dividerHeight="10dp"
+        android:divider="#ffffff">
+    </ListView>
+
+</FrameLayout>
